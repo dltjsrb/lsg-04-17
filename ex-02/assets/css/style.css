@@ -44,6 +44,28 @@
         
         width: 100%;
     }
+    .rect{
+    width: 220px;
+    height: 130px;
+    }
+    .main-text{
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+
+.short-text{
+    font-size: 10px;
+    font-weight: 600;
+
+   
+}
+
+.long-text{
+    font-size: 8px;
+    font-weight: 400;
+     color: bisque;
+}
    
 }
 
