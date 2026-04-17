@@ -1,0 +1,55 @@
+
+
+
+
+.rect {
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    position: relative;
+}
+
+.size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;     
+    margin: 0 auto;
+    gap: 30px;
+    margin-top:  50px;
+
+}
+
+
+.main-text{
+    font-size: 18px;
+    font-weight: 700;
+     padding: 5px 0;
+}
+
+.short-text{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0;
+   
+}
+
+.long-text{
+    font-size: 10px;
+    font-weight: 400;
+     color: bisque;
+}
+@media (max-width: 1440px) {
+    .size {
+        
+        width: 100%;
+    }
+   
+}
+
+@media (max-width:720px){
+    .size {
+        flex-direction: column;
+    }
+    
+}
